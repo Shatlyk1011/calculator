@@ -96,6 +96,7 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
   border: 4px solid #001825;
+  border-top: none;
   border-radius: 3px;
   margin-top: 5%;
   user-select: none;
