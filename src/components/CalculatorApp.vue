@@ -90,21 +90,28 @@ export default {
 <style scoped>
 .calculator {
   font-size: 40px;
-  max-width: 400px;
-  height: 50vh;
+  max-width: 350px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
+  border: 4px solid #001825;
+  border-radius: 3px;
+  margin-top: 5%;
+  user-select: none;
+}
+.calculator div {
+  height: 70px;
 }
 
 .display {
   grid-column: 1 /5;
-  background-color: #222444;
+  background-color: #001825;
   color: rgb(233, 233, 233);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 45px;
 }
 
 .zero {
@@ -113,25 +120,34 @@ export default {
 
 .btn {
   background-color: #f2f2f2;
-  border: 1px solid #333;
+  border: 1px solid #001825;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.1s;
 }
 
 .btn:hover {
-  background-color: #ebebeb;
-  color: black;
+  background-color: #001825;
+  color: white;
 }
 
 .operator {
-  background-color: orange;
+  background-color: #f4a261;
   color: white;
 }
 
 .operator:hover {
-  background-color: rgb(230, 149, 0);
+  background-color: #e76f51;
   color: white;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    max-width: 300px;
+    max-height: 500px;
+    font-size: 35px;
+  }
 }
 </style>
