@@ -5,5 +5,5 @@
   
 ## eng
 ### Simple calc
- Live https://shat-calc.netlify.app/
- Setuo: </br> `npm install` </br> `npm run vue` 
+ Live https://shat-calc.netlify.app/ </br>
+ Setup: </br> `npm install` </br> `npm run vue` 
