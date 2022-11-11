@@ -1,6 +1,6 @@
 ## ru
 ### Калькулятор
-  Live shat-calc.netlify.app
+  Live https://shat-calc.netlify.app/
 ## eng
 ### Simple calc
- Live shat-calc.netlify.app
+ Live https://shat-calc.netlify.app/
