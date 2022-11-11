@@ -1,5 +1,6 @@
-## RU
-## Калькулятор реализовынный на Vue.
-### Начальная установка:
-`npm install`
-`npm run vue`
+## ru
+### Калькулятор
+  Live shat-calc.netlify.app
+## eng
+### Simple calc
+ Live shat-calc.netlify.app
